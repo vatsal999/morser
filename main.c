@@ -49,7 +49,7 @@ void encode(){
     char *message = malloc(sizeof(char) * message_size);
 
     if (!message) {
-        fprintf(stderr, "lsh: allocation error\n");
+        fprintf(stderr, "messagesize allocation error\n");
         exit(EXIT_FAILURE);
     }
 
